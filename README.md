@@ -25,6 +25,35 @@ Ex: <h1 className={`${styles.headerText} ${styles.headerBold}`}>Sample text here
 \*we can give inline styling just like normal ReactJS inline styling means, we have to use double curly braces {{}} assigned to an object[key:"value" pair].
 Ex: <h1 style={{color:"green",position:"absolute"}}>
 
+\*there is one more way to write inline style using <style jsx>
+Ex:
+
+<style jsx>
+{`
+    .textBro{
+        position:absolute;
+        color:black
+    },
+    headerText:{
+        size:x-large;
+        font-family:"Sans"
+    }
+    `
+}
+</style>
+
 <!-- Components -->
 
 \*if any code is being used repetatively in the page/s, then make it as a component and re-use it
+
+<!-- Images -->
+
+\* Internal Images
+*import Image component from "next/image"
+*it needs width & height or layout="fill" and src as a property
+
+\* External Images
+\*to add external images, we need to add images key with domains as an array of image website in next.config.js
+Ex: images:{
+domains:["images.pexels.com","images.unsplash.com"]
+}

@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
 import Navbar from "../Components/Navbar";
 
 export default function Index() {
@@ -14,6 +13,7 @@ export default function Index() {
       </Head>
       <Navbar />
       <h1>Hi Nextjs</h1>
+      <Image alt="HI" src="/dummy.jpg" width="800" height="1500" />
     </div>
   );
 }
