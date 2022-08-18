@@ -57,7 +57,7 @@ const products = ({ data }) => {
                 </p>
                 <p>{e.description}</p>
                 <Link href={`/products/${e.id}`}>
-                  <button>Add to Cart</button>
+                  <button>View Details</button>
                 </Link>
               </div>
             </>

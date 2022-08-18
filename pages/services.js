@@ -6,7 +6,7 @@ const services = () => {
   return (
     <>
       <Navbar />
-      <h1 className={styles.textBro}>Services Page</h1>
+      <h1 className="text-3xl pt-3 ml-5">Services Page</h1>
     </>
   );
 };
