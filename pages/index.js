@@ -13,7 +13,7 @@ export default function Index() {
       </Head>
       <Navbar />
       <h1>Hi Nextjs</h1>
-      <Image alt="HI" src="/dummy.jpg" width="800" height="1500" />
+      <Image alt="HI" src="/dummy.jpg" width="750%" height="1500" />
     </div>
   );
 }
