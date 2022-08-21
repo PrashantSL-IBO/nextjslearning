@@ -26,35 +26,22 @@ const products = ({ data }) => {
                 key={e.id}
                 style={{
                   display: "grid",
-                  backgroundColor: "#fff",
                   boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-                  width: "50%",
-                  // border: "1px solid black",
-                  margin: 30,
-                  borderRadius: 5,
+                  margin: 20,
                 }}
+                className="max-w-sm rounded mx-auto overflow-hidden shadow-lg"
               >
-                <Image
-                  src={e.image}
-                  alt="Images"
-                  width="99%"
-                  height="250%"
-                  style={{ borderRadius: 20 }}
-                />
-                <h3
-                  style={{ textAlign: "left", color: "black", paddingLeft: 5 }}
-                >
-                  {e.name}
-                </h3>
-                <p
-                  style={{
-                    color: "#B32525",
-                    fontSize: "24px",
-                    paddingLeft: "2%",
-                  }}
-                >
-                  {e.price}
-                </p>
+                <div>
+                  <Image
+                    src={e.image}
+                    alt="Images"
+                    width="200%"
+                    height="250%"
+                    className="px-auto py-auto"
+                  />
+                </div>
+                <h3 className="font-serif font-bold px-4 text-lg">{e.name}</h3>
+                <p className="text-red-700 px-4 font-bold text-lg">{e.price}</p>
                 <p>{e.description}</p>
                 <Link href={`/products/${e.id}`}>
                   <button>View Details</button>
