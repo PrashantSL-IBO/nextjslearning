@@ -12,8 +12,10 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1 className="text-3xl font-bold underline">Hi Nextjs</h1>
-      <Image alt="HI" src="/dummy.jpg" width="750%" height="1500" />
+      <div className="flex">
+        <Image alt="HI" src="/dummy.jpg" width="750%" height="750" />
+        <Image alt="HI" src="/dummy.jpg" width="750%" height="750" />
+      </div>
     </div>
   );
 }

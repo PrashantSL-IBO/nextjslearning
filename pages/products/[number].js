@@ -38,10 +38,10 @@ export const getStaticProps = async (context) => {
   };
 };
 
-// const addToCart = async (prodCart) => {
-//   const res = await axios.post(`http://localhost:3333/cart/`, prodCart);
-//   alert("Successful", "Product has been added to the cart!!");
-// };
+const addToCart = async (prodCart) => {
+  const res = await axios.post(`http://localhost:3333/cart/`, prodCart);
+  alert("Successful", "Product has been added to the cart!!");
+};
 
 const PageNo = ({ singleData }) => {
   const route = useRouter();
@@ -56,7 +56,7 @@ const PageNo = ({ singleData }) => {
         {/* <Link href={"/"}> */}
         <button
           onClick={() => addToCart(singleData)}
-          className="bg-blue-400 p-2 bg-red-100 hover:bg-blue-700 hover:text-white text-black "
+          className="p-2 bg-red-700 hover:bg-blue-700 hover:text-white text-white "
         >
           Add to Cart
         </button>

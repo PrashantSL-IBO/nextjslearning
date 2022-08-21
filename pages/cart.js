@@ -26,14 +26,19 @@ const cart = ({ products }) => {
       {products.map((e) => {
         return (
           <>
-            <div className="container justify-around flex max-w-2xl mx-auto border-2 py-5 place-items-center">
-              <div className="text-left max-w-md">
-                <Image alt="HiImage" src={e.image} width="100%" height="100%" />
+            <div className="container justify-evenly flex max-w-2xl mx-auto border-2 py-5 place-items-center">
+              <div className="text-left flex-1 max-w-md">
+                <Image alt="HiImage" src={e.image} width="110%" height="110%" />
               </div>
-              <div className="max-w-lg">
+              <div className="max-w-lg flex-1">
                 <p className="px-8 text-left">{e.name}</p>
+                <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 my-3 border border-gray-400 rounded shadow">
+                  Remove Item
+                </button>
               </div>
-              <p className="text-[#B32525] text-2xl">{e.price}</p>
+              <div className="w-20 flex-1">
+                <p className="text-[#B32525] text-2xl">{e.price}</p>
+              </div>
             </div>
           </>
         );
