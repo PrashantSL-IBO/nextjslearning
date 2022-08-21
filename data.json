@@ -31,25 +31,11 @@
   ],
   "cart": [
     {
-      "id": 2,
-      "name": "Nippon Atom 2 in 1 1 Litre Water Paint",
-      "price": "$5.99",
+      "id": 4,
+      "name": "Dulux WeatherShield Exterior Paint",
+      "price": "$6.99",
       "description": "Well build quality. 2 years warranty.",
-      "image": "https://commerce.ibo.com/media/catalog/product/1/0/1000448683.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width="
-    },
-    {
-      "id": 1,
-      "name": "Cruze Robe Hook",
-      "price": "$3",
-      "description": "Well build quality. 2 years warranty.",
-      "image": "https://commerce.ibo.com/media/catalog/product/1/0/1006903972.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width="
-    },
-    {
-      "id": 3,
-      "name": "Disc 12 inch GT",
-      "price": "$1.49",
-      "description": "Well build quality. 2 years warranty.",
-      "image": "https://commerce.ibo.com/media/catalog/product/1/0/1006835327.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width="
+      "image": "https://commerce.ibo.com/media/catalog/product/1/0/1000360515.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width="
     }
   ]
 }
